@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 st.title("hello")
-data= pd.read_csv("/Users/gvsrijanreddy/Desktop/data sets/weather_data.csv")
+data= pd.read_csv("weather_data.csv")
 st.dataframe(data)
 add_selectbox = st.sidebar.selectbox(
     'How would you like to be contacted?',
